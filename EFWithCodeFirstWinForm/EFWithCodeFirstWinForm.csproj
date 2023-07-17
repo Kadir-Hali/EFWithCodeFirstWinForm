@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Context.cs" />
+    <Compile Include="Entity\Kategori.cs" />
+    <Compile Include="Entity\Musteri.cs" />
     <Compile Include="Entity\Urunler.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -64,10 +66,74 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307170844395_InitialCreate.cs" />
+    <Compile Include="Migrations\202307170844395_InitialCreate.designer.cs">
+      <DependentUpon>202307170844395_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171108008_CreateMusterisTable.cs" />
+    <Compile Include="Migrations\202307171108008_CreateMusterisTable.designer.cs">
+      <DependentUpon>202307171108008_CreateMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171116120_CreateMusteriSehirColumnInMusterisTable.cs" />
+    <Compile Include="Migrations\202307171116120_CreateMusteriSehirColumnInMusterisTable.designer.cs">
+      <DependentUpon>202307171116120_CreateMusteriSehirColumnInMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171131479_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs" />
+    <Compile Include="Migrations\202307171131479_RenameMusteriSoyadToMusteriUnvanInMusterisTable.designer.cs">
+      <DependentUpon>202307171131479_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171140000_UpdateEntities.cs" />
+    <Compile Include="Migrations\202307171140000_UpdateEntities.designer.cs">
+      <DependentUpon>202307171140000_UpdateEntities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171146310_RenameKategoriIsimToKategoriAdiInKategorisTable.cs" />
+    <Compile Include="Migrations\202307171146310_RenameKategoriIsimToKategoriAdiInKategorisTable.designer.cs">
+      <DependentUpon>202307171146310_RenameKategoriIsimToKategoriAdiInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171151006_RenameKategoriAdiToKategoriAdInKategorisTable.cs" />
+    <Compile Include="Migrations\202307171151006_RenameKategoriAdiToKategoriAdInKategorisTable.designer.cs">
+      <DependentUpon>202307171151006_RenameKategoriAdiToKategoriAdInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171206158_DeleteKategoriDetayColumnInKategorisTable.cs" />
+    <Compile Include="Migrations\202307171206158_DeleteKategoriDetayColumnInKategorisTable.designer.cs">
+      <DependentUpon>202307171206158_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307171232064_DeleteMusterisTable.cs" />
+    <Compile Include="Migrations\202307171232064_DeleteMusterisTable.designer.cs">
+      <DependentUpon>202307171232064_DeleteMusterisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307170844395_InitialCreate.resx">
+      <DependentUpon>202307170844395_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171108008_CreateMusterisTable.resx">
+      <DependentUpon>202307171108008_CreateMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171116120_CreateMusteriSehirColumnInMusterisTable.resx">
+      <DependentUpon>202307171116120_CreateMusteriSehirColumnInMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171131479_RenameMusteriSoyadToMusteriUnvanInMusterisTable.resx">
+      <DependentUpon>202307171131479_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171140000_UpdateEntities.resx">
+      <DependentUpon>202307171140000_UpdateEntities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171146310_RenameKategoriIsimToKategoriAdiInKategorisTable.resx">
+      <DependentUpon>202307171146310_RenameKategoriIsimToKategoriAdiInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171151006_RenameKategoriAdiToKategoriAdInKategorisTable.resx">
+      <DependentUpon>202307171151006_RenameKategoriAdiToKategoriAdInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171206158_DeleteKategoriDetayColumnInKategorisTable.resx">
+      <DependentUpon>202307171206158_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307171232064_DeleteMusterisTable.resx">
+      <DependentUpon>202307171232064_DeleteMusterisTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
